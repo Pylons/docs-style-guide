@@ -80,8 +80,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-# html_theme = 'pylons'
-html_theme = 'pyramid'
+html_theme = 'pylons'
 html_theme_path = pylons_sphinx_themes.get_html_themes_path()
 
 # Theme options are theme-specific and customize the look and feel of a theme
