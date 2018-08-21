@@ -1,0 +1,31 @@
+# Wire up travis
+language: python
+sudo: false
+
+matrix:
+    include:
+        - python: 3.6
+          env: TOXENV=py36
+#        - python: 3.5
+#          env: TOXENV=lint
+        - python: nightly
+          env: TOXENV=py37
+    allow_failures:
+        - env: TOXENV=py37
+
+install:
+  - travis_retry pip install tox
+
+script:
+  - travis_retry tox
+
+cache:
+  directories:
+    - $HOME/.cache/pip
+
+notifications:
+  email:
+    - pyramid-checkins@lists.repoze.org
+  irc:
+    channels:
+      - "chat.freenode.net#pyramid"

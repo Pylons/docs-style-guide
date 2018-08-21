@@ -1,0 +1,17 @@
+environment:
+  matrix:
+    - PYTHON: "C:\\Python36"
+      TOXENV: "py36"
+
+cache:
+    - '%LOCALAPPDATA%\pip\Cache'
+
+version: '{branch}.{build}'
+
+install:
+  - "%PYTHON%\\python.exe -m pip install tox"
+
+build: off
+
+test_script:
+  - "%PYTHON%\\Scripts\\tox.exe"
