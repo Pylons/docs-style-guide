@@ -7,6 +7,14 @@ docs-style-guide
 Documentation Style Guide for all projects under the Pylons Project
 
 
+.. _contributing:
+
+Contributing
+============
+
+See `contributing.md <https://github.com/Pylons/docs-style-guide/blob/master/contributing.md>`_.
+
+
 .. _installation:
 
 Installation
@@ -32,8 +40,16 @@ Building documentation
 We use tox to build the documentation and run tests.
 Install tox into your user space or virtual environment.
 
-From the project root, run tox.
+From the project root, run tox to build the documentation in HTML format.
+
+.. code-block:: bash
+
+    tox -e html
+
+To build all formats of the documentation, omit arguments.
 
 .. code-block:: bash
 
     tox
+
+When the build finishes, you'll find HTML documentation rendered in `.tox/html`.
