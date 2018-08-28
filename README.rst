@@ -46,10 +46,10 @@ From the project root, run tox to build the documentation in HTML format.
 
     tox -e html
 
+When the build finishes, you'll find HTML documentation rendered in `.tox/html`.
+
 To build all formats of the documentation, omit arguments.
 
 .. code-block:: bash
 
     tox
-
-When the build finishes, you'll find HTML documentation rendered in `.tox/html`.
