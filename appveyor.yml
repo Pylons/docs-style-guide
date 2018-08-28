@@ -1,7 +1,9 @@
 environment:
   matrix:
     - PYTHON: "C:\\Python36"
-      TOXENV: "py36"
+      TOXENV: "html"
+    - PYTHON: "C:\\Python36"
+      TOXENV: "linkcheck"
 
 cache:
     - '%LOCALAPPDATA%\pip\Cache'
