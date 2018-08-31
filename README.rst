@@ -4,7 +4,10 @@
 docs-style-guide
 ****************
 
-Documentation Style Guide for all projects under the Pylons Project
+`Pylons Project Documentation Style Guide <https://docs.pylonsproject.org/projects/docs-style-guide/>`_
+
+This project is the style guide for documentation of all projects under the Pylons Project.
+
 
 
 .. _contributing:
