@@ -1,28 +1,26 @@
 ---
-name: Bug Report
-about: Create a report to help us improve
+name: Documentation Suggestion
+about: Create an issue to improve our documentation
 
 ---
 
 ## Get Support
 To get help or technical support, see [Get Support](https://pylonsproject.org/community-support.html).
 
-## Bug Report
+## Documentation Suggestion
 
 Please [search the issue tracker](https://github.com/Pylons/docs-style-guide/issues) for similar issues before submitting a new issue.
 
-**Describe the bug**
-A clear and concise description of the bug.
+**Describe the issue**
+A clear and concise description of the issue.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
+**Include references**
+1. Go to the URL '...'
 2. Click on '....'
 3. Scroll down to '....'
-4. See error
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Describe the improvement**
+A clear and concise description of your suggestion.
 
 **Screenshots**
 If applicable, add screenshots to help explain the issue.
