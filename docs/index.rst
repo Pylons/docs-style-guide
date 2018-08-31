@@ -516,8 +516,6 @@ The above code renders as follows.
 
 :meth:`python:str.capitalize`
 
-.. TODO: Add Pyramid to intersphinx configuration in conf.py
-
 Python function names use the ``func`` directive, with the function name as the argument.
 
 .. code-block:: rst
@@ -933,8 +931,6 @@ Longer displays of verbatim text may be included by storing the example text in 
 The file may be included using the ``literalinclude`` directive.
 The file name follows the conventions of :ref:`dsg-file-naming`.
 
-.. TODO: copy the helloworld.py file into the static directory.
-
 .. code-block:: rst
 
     .. literalinclude:: src/helloworld.py
@@ -1298,6 +1294,22 @@ Todo items designate tasks that require further work.
     .. todo::
 
         This is a todo item.
+
+This renders as the following.
+
+.. todo::
+
+    This is a todo item.
+
+To display a list of all todos in the entire documentation, use the ``todolist`` directive.
+
+.. code-block:: rst
+
+    .. todolist::
+
+In this document, the above renders as the following.
+
+.. todolist::
 
 
 .. _dsg-tables:
