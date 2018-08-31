@@ -1618,8 +1618,14 @@ We currently use `sphinxcontrib-autoprogram <https://pythonhosted.org/sphinxcont
 
 .. _indices-and-tables:
 
-Indices and tables
-==================
+Index, Glossary, and Search
+===========================
 
 * :ref:`genindex`
+* :ref:`glossary`
 * :ref:`search`
+
+.. toctree::
+   :hidden:
+
+   glossary
