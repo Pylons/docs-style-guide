@@ -7,15 +7,13 @@ matrix:
         - python: 3.6
           env: TOXENV=html
         - python: 3.6
+          env: TOXENV=doctest
+        - python: 3.6
           env: TOXENV=linkcheck
-#        - python: 3.6
-#          env: TOXENV=py36
-#        - python: 3.5
-#          env: TOXENV=lint
-#        - python: nightly
-#          env: TOXENV=py37
-#    allow_failures:
-#        - env: TOXENV=py37
+        - python: 3.6
+          env: TOXENV=epub
+        - python: 3.6
+          env: TOXENV=pdf
 
 install:
   - travis_retry pip install tox
