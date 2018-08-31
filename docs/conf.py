@@ -120,15 +120,25 @@ htmlhelp_basename = 'PylonsProjectDocumentationStyleGuidedoc'
 latex_elements = {
     # The paper size ('letterpaper' or 'a4paper').
     #
-    # 'papersize': 'letterpaper',
+    'papersize': 'letterpaper',
 
     # The font size ('10pt', '11pt' or '12pt').
     #
-    # 'pointsize': '10pt',
+    'pointsize': '12pt',
 
     # Additional stuff for the LaTeX preamble.
     #
-    # 'preamble': '',
+    'preamble': r"""
+%XeLaTeX packages
+\usepackage{xltxtra}
+\usepackage{fontspec} %Font package
+\usepackage{xunicode}
+
+%Select fonts
+\setmainfont[Mapping=tex-text]{nimbusserif}
+\setsansfont[Mapping=tex-text]{nimbussans}
+\setmonofont{nimbusmono}
+""",
 
     # Latex figure (float) alignment
     #
@@ -143,6 +153,7 @@ latex_documents = [
      'Steve Piercy', 'manual'),
 ]
 
+latex_engine = 'xelatex'
 
 # -- Options for manual page output ------------------------------------------
 
