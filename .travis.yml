@@ -12,8 +12,6 @@ matrix:
           env: TOXENV=linkcheck
         - python: 3.6
           env: TOXENV=epub
-        - python: 3.6
-          env: TOXENV=pdf
 
 install:
   - travis_retry pip install tox
