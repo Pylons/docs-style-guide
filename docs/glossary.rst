@@ -16,3 +16,4 @@ Glossary
 
     pining
         What the Norwegien Blue does when it misses its homeland, e.g., pining for the fjords.
+
