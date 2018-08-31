@@ -117,7 +117,13 @@ htmlhelp_basename = 'PylonsProjectDocumentationStyleGuidedoc'
 
 # -- Options for LaTeX output ------------------------------------------------
 
+latex_engine = 'xelatex'
 latex_elements = {
+#     'fontpkg': r'''
+# \setmainfont{DejaVu Serif}
+# \setsansfont{DejaVu Sans}
+# \setmonofont{DejaVu Sans Mono}
+# ''',
     # The paper size ('letterpaper' or 'a4paper').
     #
     'papersize': 'letterpaper',
@@ -128,7 +134,7 @@ latex_elements = {
 
     # Additional stuff for the LaTeX preamble.
     #
-    'preamble': r"""
+    'preamble': r'''
 %XeLaTeX packages
 \usepackage{xltxtra}
 \usepackage{fontspec} %Font package
@@ -138,12 +144,21 @@ latex_elements = {
 \setmainfont[Mapping=tex-text]{nimbusserif}
 \setsansfont[Mapping=tex-text]{nimbussans}
 \setmonofont{nimbusmono}
-""",
 
-    # Latex figure (float) alignment
-    #
-    # 'figure_align': 'htbp',
+\usepackage[titles]{tocloft}
+\cftsetpnumwidth {1.25cm}\cftsetrmarg{1.5cm}
+\setlength{\cftchapnumwidth}{0.75cm}
+\setlength{\cftsecindent}{\cftchapnumwidth}
+\setlength{\cftsecnumwidth}{1.25cm}
+''',
+    'fncychap': r'\usepackage[Bjornstrup]{fncychap}',
+    'printindex': r'\footnotesize\raggedright\printindex',
+
+# Latex figure (float) alignment
+#
+# 'figure_align': 'htbp',
 }
+latex_show_urls = 'footnote'
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
@@ -152,8 +167,6 @@ latex_documents = [
     (master_doc, 'PylonsProjectDocumentationStyleGuide.tex', 'Pylons Project Documentation Style Guide',
      'Steve Piercy', 'manual'),
 ]
-
-latex_engine = 'xelatex'
 
 # -- Options for manual page output ------------------------------------------
 
