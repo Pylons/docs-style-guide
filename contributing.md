@@ -11,7 +11,12 @@ You can contribute to this project in several ways.
     When submitting a pull request, sign [CONTRIBUTORS.txt](https://github.com/Pylons/docs-style-guide/blob/master/CONTRIBUTORS.txt) if you have not yet done so.
 *   Join the [IRC channel #pyramid on irc.freenode.net](https://webchat.freenode.net/?channels=pyramid).
 
-All contributions must pass automatic checks.
+## Git Branches
+
+Git branches and their purpose and status at the time of this writing are listed below.
+
+*   [master](https://github.com/Pylons/docs-style-guide/) - The branch which should always be *deployable*. The default branch on GitHub.
+*   For development, create a new branch. If changes on your new branch are accepted, they will be merged into the master branch and deployed.
 
 ## Prerequisites
 
