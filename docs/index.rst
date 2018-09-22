@@ -1463,6 +1463,20 @@ The above code renders as follows.
 This **word** is in bold text.
 
 
+.. _dsg-keyboard-symbols
+
+Keyboard symbols
+----------------
+
+.. code-block:: rst
+
+    Press :kbd:`Ctrl-C` (or :kbd:`Ctrl-Break` on Windows) to exit the server.
+
+The above code renders as follows.
+
+Press :kbd:`Ctrl-C` (or :kbd:`Ctrl-Break` on Windows) to exit the server.
+
+
 .. _dsg-grammar-spelling-and-capitalization:
 
 Grammar, spelling, and capitalization
