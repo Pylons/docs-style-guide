@@ -1463,7 +1463,7 @@ The above code renders as follows.
 This **word** is in bold text.
 
 
-.. _dsg-keyboard-symbols
+.. _dsg-keyboard-symbols:
 
 Keyboard symbols
 ----------------
