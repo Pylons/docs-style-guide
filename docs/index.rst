@@ -1500,6 +1500,7 @@ Pyramid                   pyramid
 Python                    python
 reST or reStructuredText  rst, restructuredtext
 select                    check, tick (checkbox)
+Setuptools                setuptools
 such as                   like
 Unicode                   unicode
 Unix                      UNIX, unix
