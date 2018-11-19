@@ -1490,6 +1490,7 @@ The following table lists the preferred grammar, spelling, and capitalization of
 Preferred                 Avoid
 ========================  =====
 add-on                    addon
+ASCII                     ascii
 and so on                 etc.
 GitHub                    Github, github
 JavaScript                Javascript, javascript, js
