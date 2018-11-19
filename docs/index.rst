@@ -1505,6 +1505,7 @@ Setuptools                setuptools
 such as                   like
 Unicode                   unicode
 Unix                      UNIX, unix
+URL                       url
 verify                    be sure
 ========================  =====
 
