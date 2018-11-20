@@ -169,7 +169,7 @@ Example:
             Theoretically, the sound a parrot makes when four-thousand volts of electricity pass through it.
 
         pining
-            What the Norwegien Blue does when it misses its homeland, e.g., pining for the fjords.
+            What the Norwegien Blue does when it misses its homeland, for example, pining for the fjords.
 
 The above code renders as follows.
 
@@ -180,7 +180,7 @@ The above code renders as follows.
         Theoretically, the sound a parrot makes when four-thousand volts of electricity pass through it.
 
     pining
-        What the Norwegian Blue does when it misses its homeland, e.g., pining for the fjords.
+        What the Norwegian Blue does when it misses its homeland, for example, pining for the fjords.
 
 
 References to glossary terms appear as follows.
@@ -209,6 +209,80 @@ File encoding
 -------------
 
 All documentation source files must be in UTF-8 encoding to allow special characters, including em-dash (``—``) and tree diagram characters.
+
+
+.. _dsg-general-guidance:
+
+General guidance
+================
+
+This section describes the general voice, tone, and style that documentation should follow.
+It also includes things for authors to consider when writing to your audience.
+
+
+Accessibility
+-------------
+
+Consider that your audience includes people who fall into the following groups:
+
+- People who do not use English as their first language (English language rules are insanely complex).  According to our web statistics for docs.pylonsproject.org, about 36% of all readers of documentation under the Pylons Project do not use English as their first language.  And only about 32% of all visitors are from the United States, United Kingdom, Canada, Australia, New Zealand, and Ireland.
+- Visually impaired readers (a comma makes a huge difference to a screen reader, adding a "breath", much like a musical breath symbol).
+- Readers who don't have college-level reading comprehension.
+- Folks with reading disabilities.
+
+
+Voice
+-----
+
+It is acceptable to address the reader as "you".
+This helps make documentation, especially tutorials, more approachable.
+"You" is also less formal than "the user".
+
+
+Avoid sentence run-ons
+----------------------
+
+Instead of using long sentences, consider breaking them into multiple shorter sentences.
+Long complicated sentences are more difficult to understand than shorter, clearer sentences.
+Consider that your audience is not familiar with your content.
+That is why they are reading your documentation.
+
+
+Gender
+------
+
+Except for speaking for oneself, the author should avoid using pronouns that identify a specific gender.
+Neutral gender pronouns "they", "them", "their", "theirs", "it", and "its" are preferred.
+Never use the hideous and clumsy "he/she".
+
+
+Style
+-----
+
+Avoid hype and marketing.
+
+Avoid words that can frustrate or discourage the reader if they are not able to complete or understand a concept.
+Such words include "simple", "just", "very", "easy", and their derivations.
+For example, "Simply run the command ``foo bar``, and you're up and running!" will frustrate a user who has neither installed the requirements for ``foo`` nor configured it to execute ``bar``.
+
+
+English Syntax
+--------------
+
+Use proper spelling, grammar, and punctuation.
+`English Language & Usage <https://english.stackexchange.com/>`_ is a good resource.
+
+Never use "and/or".
+If you cannot figure out whether you should use "and" or "or", and are tempted to use the lazy "and/or", then write the sentence so it is clear.
+
+Avoid abbreviations.
+Spell out words.
+
+Avoid "etc.", "e.g.", and "i.e.".
+They do not translate well or read well by screen readers for the visually impaired.
+It is lazy, and sounds pretentious.
+Writers seldom get the usage or punctuation right.
+Instead spell it out to their meanings of "and so on", "for example", and "in other words".
 
 
 .. _dsg-page-structure:
@@ -1492,7 +1566,9 @@ Preferred                 Avoid
 add-on                    addon
 ASCII                     ascii
 and so on                 etc.
+for example               e.g.
 GitHub                    Github, github
+in other words            i.e.
 JavaScript                Javascript, javascript, js
 JSON                      json
 nginx                     Nginx
