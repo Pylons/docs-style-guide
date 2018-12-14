@@ -719,6 +719,22 @@ next term
     Next term definition.
 
 
+.. _dsg-images:
+
+Images
+------
+
+To display images, use the ``image`` directive.
+
+.. code-block:: rst
+
+    .. image:: /_static/pyramid_request_processing.*
+
+Will render in HTML as the following.
+
+.. image:: /_static/pyramid_request_processing.*
+
+
 .. _dsg-source-code:
 
 Source code
