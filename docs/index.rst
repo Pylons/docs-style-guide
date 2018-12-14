@@ -485,7 +485,7 @@ Here is an example of inline links, our preferred method.
 
 The above code renders as follows.
 
-`TryPyramid <https://TryPyramid.com>`_
+`TryPyramid <https://trypyramid.com>`_
 
 .. seealso:: See also :ref:`dsg-cross-reference-links` for generating links throughout the entire documentation.
 
@@ -1696,10 +1696,10 @@ Live examples can be found in Pyramid's :ref:`api_documentation`.
 
 .. _dsg-sphinx-extension-repoze-sphinx-autointerface:
 
-`repoze.sphinx.autointerface <https://pypi.python.org/pypi/repoze.sphinx.autointerface>`_
+`repoze.sphinx.autointerface <https://pypi.org/project/repoze.sphinx.autointerface/>`_
 -----------------------------------------------------------------------------------------
 
-`repoze.sphinx.autointerface <https://pypi.python.org/pypi/repoze.sphinx.autointerface>`_ auto-generates API docs from Zope interfaces.
+`repoze.sphinx.autointerface <https://pypi.org/project/repoze.sphinx.autointerface/>`_ auto-generates API docs from Zope interfaces.
 
 
 .. _dsg-script-documentation:
