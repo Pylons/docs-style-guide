@@ -677,6 +677,8 @@ Avoid manually numbering lists, instead allowing Sphinx to do the numbering for 
 #.  This is an item in a numbered list.
 #.  This is another item in a numbered list.
 
+.. seealso:: `Docutils Enumerated Lists <http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#enumerated-lists>`_
+
 Nested lists use syntax and display as follows.
 The appearance of nested lists can be created by separating the child lists from their parent list by blank lines, and indenting four spaces.
 
