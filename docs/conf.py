@@ -229,7 +229,7 @@ epub_exclude_files = ['search.html']
 intersphinx_mapping = {
     'pyramid': ('https://docs.pylonsproject.org/projects/pyramid/en/latest/', None),
     'python': ('https://docs.python.org/3', None),
-    'sphinx': ('http://www.sphinx-doc.org/en/latest', None),
+    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
 }
 
 # -- Options for todo extension ----------------------------------------------
