@@ -5,8 +5,8 @@ Pylons Project Documentation Style Guide
 ****************************************
 
 .. meta::
-   :description: This chapter is the style guide used for documentation of all Pylons Project projects.
-   :keywords: Style Guide, Documentation
+    :description: This chapter is the style guide used for documentation of all Pylons Project projects.
+    :keywords: Style Guide, Documentation
 
 
 .. _dsg-introduction:
