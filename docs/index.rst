@@ -168,14 +168,13 @@ Example:
 
 The above code renders as follows.
 
-.. glossary::
-    :sorted:
-
-    voom
-        Theoretically, the sound a parrot makes when four-thousand volts of electricity pass through it.
+    .. rst-class:: glossary simple
 
     pining
         What the Norwegian Blue does when it misses its homeland, for example, pining for the fjords.
+
+    voom
+        Theoretically, the sound a parrot makes when four-thousand volts of electricity pass through it.
 
 
 References to glossary terms appear as follows.
